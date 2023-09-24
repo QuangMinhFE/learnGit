@@ -1,8 +1,14 @@
 let sum = (a, b) => a + b;
-const btn = document.querySelector('.btn')
-const span = document.querySelector('.span');
-btn.addEventListener('click', () => {
-    span.innerHTML = sum(2,3);
+const btn = document.querySelector(".btn");
+const span = document.querySelector(".span");
+btn.addEventListener("click", () => {
+  span.innerHTML = sum(2, 3);
 });
 
-console.log('hello world')
+const Animal = function (name, color, weight) {
+  let nameAnimal = name;
+  let colorAnimal = color;
+  let weightAnimal = weight;
+
+  return {};
+};
