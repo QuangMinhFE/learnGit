@@ -10,5 +10,11 @@ const Animal = function (name, color, weight) {
   let colorAnimal = color;
   let weightAnimal = weight;
 
-  return {};
+  return {
+    showInfo() {
+      return `name: ${nameAnimal}, color: ${colorAnimal}, weight: ${weightAnimal}`;
+    },
+  };
 };
+
+console.log(Animal("dog", "black", 100).showInfo());
